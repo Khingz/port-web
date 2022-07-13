@@ -1,0 +1,39 @@
+.side-nav-container {
+    /* width: 015%; */
+    /* background-color: red; */
+    height: 100vh;
+}
+.menu-container {
+    position: fixed;
+    top: 50%;
+    left: 10%;
+    /* transform: translate(-50%, -50%); */
+
+}
+.menu-list {
+    display: flex;
+    cursor: pointer;
+    justify-content: left;
+    align-items: center;
+    margin-bottom: 2rem;
+    
+}
+
+.menu-list .menu {
+    color: white;
+    margin-left: 1rem;
+}
+
+.icon {
+    background-color: red;
+    padding: 0.3rem 0.5rem;
+    border-radius: 15%;
+    color: whitesmoke;
+    font-size: 1.5rem;
+}
+
+.toggle-bar {
+    color: whitesmoke;
+    font-size: 1.5rem;
+    margin-top: 20px;
+}

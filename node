@@ -1,0 +1,17 @@
+ <ul>
+            <li>
+                <NavLink to='/' activeClassName="active"><FaHome /></NavLink>
+            </li>
+            <li>
+                <NavLink to='/about'activeClassName="active" ><FaUserAlt /></NavLink>
+            </li>
+            <li>
+                <NavLink to='/resume' activeClassName="active"><FaRegPlayCircle /></NavLink>
+            </li>
+            <li>
+                <NavLink to='portfolio' activeClassName="active"><FaBook /></NavLink>
+            </li>
+            <li>
+                <NavLink to='/contact' activeClassName="active"><FaEnvelope /></NavLink>
+            </li>
+        </ul>

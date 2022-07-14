@@ -30,7 +30,7 @@ function SideNav() {
         }
     ]
   return (
-    <div className='side-nav-container' style={{width: isOpen ? '100%' : '5%'}}>
+    <div className='side-nav-container'>
          <div className='side-nav-content' >
                <div className='toggle-bar'>
                   {!isOpen ? <FaBars onClick={toggle} /> : <FaTimes onClick={toggle}/>}  
@@ -40,8 +40,12 @@ function SideNav() {
                    menuItem.map((item, index)=>(
                        <NavLink to={item.path} key={index} >
                           <div className="menu-list">
-                            <div className="icon">{item.icon}</div>
-                            <div className='menu' style={{display: isOpen ? 'block' : 'none'}}>{item.name}</div>
+                            <span className="menu-icon">{item.icon}</span>
+                            <span className='menu' style={{display: isOpen ? 'inline' : 'none'}}>
+                                <span className="hide-menu-mobile">
+                                {item.name}
+                                </span>
+                            </span>
                             </div>
                        </NavLink>
                    ))

@@ -8,11 +8,12 @@ body {
   box-sizing: border-box;
   font-family: 'Ubuntu', sans-serif;
   color: whitesmoke;
-  scroll-behavior: smooth;
+  overflow: hidden;
 }
 
 ul {
   list-style: none;
+  padding: 0;
 }
 
 a {

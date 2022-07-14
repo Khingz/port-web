@@ -1,62 +1,42 @@
-.side-nav-container {
-    height: 100vh;
-    position: fixed;
-    inset: 30% 0 20px 30px;
-    overflow: hidden;
-}
-
 .side-nav-content {
-    height: 100vh;
+    position: absolute;
+    top: 30%;
+    left: 5%;
+    overflow: hidden;
+    width: 10px;
 }
 
-.toggle-bar {
+.toggle {
     font-size: 1.8rem;
-    cursor: pointer;
-    background-color: blue;
-    width: 2rem;
-    padding: 0.5rem;
-    text-align: center;
-    border-radius: 10%;
+}
+
+.menu-container ul li {
+    margin: 2rem auto;
+    font-size: 1.3rem;
+}
+
+.menu-container ul li a {
+    color: whitesmoke;
+    align-self: center;
 }
 
 .menu-container {
-    margin: 2rem auto;
+    white-space: nowrap;
 }
 
-.menu-list {
-    margin: 1rem auto;
-}
-
-.menu-list .menu-icon {
-    font-size: 1.5rem;
-    cursor: pointer;
-    width: 2rem;
-    padding: 0.5rem;
-    padding-bottom: 0.2rem;
-    border-radius: 50%;
-    color: whitesmoke;
-    background-color: rgb(154, 156, 155);
-}
-
-.menu {
+.menu-name {
     margin-left: 1rem;
+    font-size: 1rem;
+    background-color: tomato;
 }
+
 
 @media only screen and (max-width: 600px) {
-    .toggle-bar {
+    .toggle {
         display: none;
     }
 
-    .hide-menu-mobile {
+    .menu-name {
         display: none;
     }
-
-    .menu-list {
-        margin: 2rem auto;
-    }
-
-    .menu-list .menu-icon {
-        font-size: 1.2rem;
-    }
-
-  }
+}

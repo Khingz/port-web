@@ -1,58 +1,46 @@
-import { FaHome, FaRegPlayCircle, FaBook, FaUserAlt, FaEnvelope, FaTimes, FaBars } from 'react-icons/fa'
+import { FaHome, FaRegPlayCircle, FaBook, FaUserAlt, FaEnvelope, FaTimes, FaAlignLeft } from 'react-icons/fa'
 import '../component/sidenav.css'
-import { useState } from 'react'
 import { NavLink } from 'react-router-dom'
+import { useState } from 'react';
 
 function SideNav() {
-    const [isOpen, setIsOpen] = useState(false)
+const [isOpen, setIsOpen ] = useState(false)
 
-    const toggle = () => setIsOpen(!isOpen)
-    const menuItem=[
-        {
-            path:"/",
-            name:"Home",
-            icon:<FaHome />
-        },
-        {
-            path:"/about",
-            name:"About",
-            icon:<FaUserAlt />
-        },
-        {
-            path:"/portfolio",
-            name:"Portfolio",
-            icon:<FaBook/>
-        },
-        {
-            path:"/contact",
-            name:"Contact",
-            icon:<FaEnvelope />
-        }
-    ]
+const toggle = () => setIsOpen(!isOpen)
+
   return (
-    <div className='side-nav-container'>
-         <div className='side-nav-content' >
-               <div className='toggle-bar'>
-                  {!isOpen ? <FaBars onClick={toggle} /> : <FaTimes onClick={toggle}/>}  
-               </div>
-                <div className="menu-container">
-                {
-                   menuItem.map((item, index)=>(
-                       <NavLink to={item.path} key={index} >
-                          <div className="menu-list">
-                            <span className="menu-icon">{item.icon}</span>
-                            <span className='menu' style={{display: isOpen ? 'inline' : 'none'}}>
-                                <span className="hide-menu-mobile">
-                                {item.name}
-                                </span>
-                            </span>
-                            </div>
-                       </NavLink>
-                   ))
-               }
-                </div>
-             
-           </div>
+    <div className='side-nav-content' style={{width: isOpen ? '90px' : '30px'}}>
+        <div className="toggle" onClick={toggle}>
+           {!isOpen ? <FaAlignLeft /> : <FaTimes />} 
+        </div>
+        <div className="menu-container">
+        <ul>
+            <li>
+                <NavLink to='/'>
+                    <FaHome />
+                    <span className='menu-name' style={{}}>Home</span>
+                </NavLink>
+            </li>
+            <li>
+                <NavLink to='/about'>
+                    <FaUserAlt />
+                    <span className='menu-name'>Home</span>
+                </NavLink>
+            </li>
+            <li>
+                <NavLink to='/portfolio'>
+                    <FaBook />
+                    <span className='menu-name'>Home</span>
+                </NavLink>
+            </li>
+            <li>
+                <NavLink to='/contact'>
+                    <FaEnvelope />
+                    <span className='menu-name'>Home</span>
+                </NavLink>
+            </li>
+        </ul>   
+        </div>    
     </div>
   )
 }

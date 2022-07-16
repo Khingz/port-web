@@ -1,0 +1,170 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@700&display=swap');
+
+.home {
+    width: 100%;
+    height: 100vh;
+    color: whitesmoke;
+    /* background: url('../assets/img/bg-3.jpg'); */
+    background: #000;
+    background-size: cover;
+}
+
+.home-grey-bg {
+    background-color: rgba(64, 64, 64, 0.1);
+    width: 100%;
+    height: 100vh;
+}
+
+.home-container {
+    display: flex;
+    justify-content: center;
+    width: 80%;
+    flex-direction: row-reverse;
+    position: absolute;
+    align-items: center;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+}
+
+.content-container {
+    flex: 1;
+}
+
+.content-container h5 {
+    font-family: 'Oswald', sans-serif;
+    font-size: 2.5rem;
+    font-weight: bolder;
+
+}
+
+
+
+.content-container p {
+    margin-top: -4rem;
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+
+.link-button {
+    display: flex;
+}
+.link-button a {
+    color: white;
+    margin-right: 0.5rem;
+    padding: 0.5rem;
+    font-size: 0.7rem;
+}
+
+.view-resume {
+    border: solid 1px rgb(89, 174, 248);
+    transition: ease-in-out 0.5s;
+}
+
+.view-resume:hover {
+    background: rgb(89, 174, 248);
+}
+
+.hire-me {
+    background: rgb(89, 174, 248);
+    border: none;
+    transition: 0.5s ease-in-out;
+    animation: hire-me 1s infinite;
+}
+
+@keyframes hire-me {
+    0% {transform: scale(1)}
+    25% {transform: scale(1.1)}
+    50%{transform: scale(1.2)}
+    75% {transform: scale(1.1)}
+    100%{transform: scale(1)}
+}
+
+.hire-me:hover {
+    border: solid 1px rgb(89, 174, 248);
+    background: none;
+    animation-name: no-animation;
+    transform: scale(1.2)
+}
+
+.home-social-icon {
+    display: flex;
+    margin-top: 1rem;
+    justify-content: left;
+}
+
+.home-social-icon a {
+    margin: auto 0.4rem;
+    color: white;
+    font-size: 1.2rem;
+    transition: 0.5s ease-in-out;
+}
+
+.home-social-icon a:hover {
+  transform: scale(1.2);
+}
+
+.avatar-container {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+
+
+.avatar-box img {
+    width: 100%;
+}
+
+
+.link-button {
+    display: flex;
+    align-items: center;
+    justify-content: left;
+}
+
+
+@media only screen and (max-width: 650px) {
+
+    .home {
+        background-size: cover;
+    }
+
+    .home-container {
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-content: center;
+        width: 70%;
+        padding: 2rem auto;
+    }
+
+    .avatar-container {
+        flex: 1;
+    }
+
+    .content-container {
+        margin-top: -2rem;
+        text-align: center;
+    }
+
+    .content-container h5 {
+        font-size: 1.5rem;
+    }
+
+    .content-container p {
+        margin-top: -2rem;
+
+    }
+
+
+    .link-button {
+        justify-content: center;
+    }
+
+    .home-social-icon {
+        justify-content: center;
+    }
+    
+}

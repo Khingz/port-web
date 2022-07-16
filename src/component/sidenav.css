@@ -1,37 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Edu+VIC+WA+NT+Beginner:wght@600&display=swap');
+
 .side-nav-content {
-    position: absolute;
+    position: fixed;
     top: 30%;
-    left: 5%;
+    left: 2%;
     overflow: hidden;
     width: 10px;
+    transition: 0.5s ease-in;
+    z-index: 2;
 }
 
 .toggle {
     font-size: 1.8rem;
+    cursor: pointer;
+    transition: 0.5s ease-in-out;
 }
 
-.menu-container ul li {
-    margin: 2rem auto;
-    font-size: 1.3rem;
-}
-
-.menu-container ul li a {
-    color: whitesmoke;
-    align-self: center;
+.toggle:hover {
+    transform: scale(1.05);
 }
 
 .menu-container {
     white-space: nowrap;
 }
 
-.menu-name {
-    margin-left: 1rem;
+.menu-container ul li {
+    margin: 2rem auto;
+}
+
+.menu-container ul li a {
+    display: flex;
+    align-items: center;
+}
+
+.menu-icon {
+    color: whitesmoke;
+    background-color: rgb(89, 174, 248);
+    padding: 0.5rem;
+    padding-bottom: 0.3rem;
+    border-radius: 20%;
     font-size: 1rem;
-    background-color: tomato;
+    transition: 0.5s ease-out;
+}
+
+.menu-icon:hover, .menu-name:hover {
+    background-color: rgb(196, 193, 193);
+    
+}
+
+.menu-name {
+    font-size: 1rem;
+    background-color: rgb(89, 174, 248);
+    padding: 0.3rem 0.5rem;
+    margin-left: 0.6rem;
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+    color: white;
+    font-family: 'Edu VIC WA NT Beginner', cursive;
+    border-bottom: 1px whitesmoke solid;
 }
 
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 650px) {
     .side-nav-content {
         top: 25%;
     }
@@ -42,5 +72,16 @@
 
     .menu-name {
         display: none;
+    }
+}
+
+@media only screen and (max-height: 410px) {
+    .side-nav-content {
+        top: 10%;
+    }
+
+    .menu-container ul li {
+        margin: 1.5rem auto;
+        font-size: 1.1rem;
     }
 }

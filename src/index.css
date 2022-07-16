@@ -7,8 +7,7 @@ body {
   padding: 0;
   box-sizing: border-box;
   font-family: 'Ubuntu', sans-serif;
-  color: whitesmoke;
-  overflow: hidden;
+  color: rgb(255, 255, 255);
 }
 
 ul {
@@ -22,16 +21,18 @@ a {
 
 /* App styling */
 .landing-container {
-  background: url('./assets/img/hello.jpg');
-  width: 100%;
-  height: 100vh;
   background-position: center;
   background-size: cover;
   position: relative;
 }
 
 .bg-container {
-  background-color: rgba(0, 0, 0, 0.5);
-  width: 100%;
-  height: 100vh;
+  position: relative;
 }
+
+/* .logo {
+  font-size: 1.4rem;
+  padding: 0.5rem;
+  border: whitesmoke 1.5px solid;
+  width: 8%;
+} */

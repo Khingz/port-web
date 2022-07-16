@@ -10,7 +10,7 @@ const Home = () => {
      <div className="home-grey-bg">
      <div className='home-container'>
        <div className="content-container">
-        <h5>NON-AWARD WINNING WEB DEVELOPER</h5>
+        <h5 data-text ='NON-AWARD WINNING WEB DEVELOPER'>NON-AWARD WINNING WEB DEVELOPER</h5>
         <p>But trust me, I will blow your mind!!!</p>
         <div className='link-button'>
           <a href="" className='view-resume'>View Resume</a>

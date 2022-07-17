@@ -9,16 +9,23 @@ const contact = () => {
       <ul>
       <li>
         <div className="timeline-content">
-          <h3 className="date">20th may, 2010</h3>
-          <h1>Heading 1</h1>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur tempora ab laudantium voluptatibus aut eos placeat laborum, quibusdam exercitationem labore.</p>
+          <h4>Get in touch</h4>
+          <form>
+            <input type="text" className='fullname' placeholder='Enter full name' />
+            <input type="email" name="email" className='email' placeholder='Enter your email' />
+            <textarea name="msg" className='message' cols="30" rows="5" placeholder='Please leave a message'></textarea>
+          </form>
         </div>
       </li>
       <li>
         <div className="timeline-content">
-          <h3 className="date">20th may, 2010</h3>
-          <h1>Heading 2</h1>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur tempora ab laudantium voluptatibus aut eos placeat laborum, quibusdam exercitationem labore.</p>
+          <h4>Contact Info</h4>
+          <p>Need to get in contact with me? Either fill out the form above with your enquiry or contact us with any of the medium below. I am always available to anser the question you might have. I look forward to hesring from you. </p>
+          <div className="social-contact">
+            <p>kingsley995mr@gmail.com</p>
+            <p>(+234) - 08163792207</p>
+
+          </div>
         </div>
       </li>
     </ul>

@@ -29,10 +29,26 @@ a {
 .bg-container {
   position: relative;
 }
+.bg-container::before {
+  content: 'KHINGZ';
+  position: absolute;
+  top: 3%;
+  left: 3%;
+  width: 60px;
+  color: white;
+  font-size: 1rem;
+  font-weight: 900;
+  border: 1px solid whitesmoke;
+  padding: 0.3rem;
+}
 
-/* .logo {
-  font-size: 1.4rem;
-  padding: 0.5rem;
-  border: whitesmoke 1.5px solid;
-  width: 8%;
-} */
+.bg-container::after {
+  content: '';
+  position: absolute;
+  top: 5%;
+  left: 2%;
+  width: 85px;
+  padding: 1px;
+  background-color: rgb(34, 34, 34);
+  transform: rotate(165deg);
+}

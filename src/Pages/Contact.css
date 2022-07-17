@@ -1,7 +1,128 @@
 .contact-container {
+    color: black;
+    background: yellow;
+    width: 100%;
+    min-height: 100vh;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
-    /* height: 100vh; */
-    color: black;
+    padding-top: 5rem;
+}
+
+.contact:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 2px;
+    height: 100%;
+    background-color: gray;
+}
+
+.contact {
+    max-width: 75%;
+    position: relative;
+    height: auto;
+    margin: 0 auto;
+}
+
+.contact ul {
+    list-style: none;
+}
+
+.contact ul li {
+background-color: #1e1f22;
+color: white;
+margin-bottom: 20px;
+width: 50%;
+padding: 20px;
+}
+
+.contact ul li:nth-child(odd) {
+    float: left;
+    clear: right;
+    transform: translateX(-70px);
+}
+
+.contact ul li:nth-child(even) {
+    float: right;
+    clear: left;
+    transform: translateX(70px);
+}
+
+.contact ul li::before {
+    content: "";
+    position: absolute;
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    background-color: gray;
+    top: 0px;
+  }
+
+.contact ul li:nth-child(odd)::before {
+    transform: translate(50%, -50%);
+    right: -30px;
+}
+
+.contact ul li:nth-child(even)::before {
+transform: translate(-50%, -50%);
+left: -30px;
+}
+
+
+@media only screen and (max-width: 768px) {
+    
+    .contact-container {
+       padding-top: 3rem;
+       padding-bottom: 3rem auto;
+
+    }
+
+    .contact:before {
+        content: "";
+        position: absolute;
+        top: 0%;
+        left: 1px;
+        /* transform: translateX(-50%); */
+        width: 2px;
+        height: 100%;
+        background-color: gray;
+    }
+
+    .contact ul li {
+        background-color: #1e1f22;
+        color: white;
+        margin-bottom: 20px;
+        width: 80%;
+        padding: 1rem;
+    }
+
+    .contact ul li:nth-child(odd) {
+        float: none;
+        transform: translateX(0px);
+        margin-left: 5%;
+    }
+    
+    .contact ul li:nth-child(even) {
+        float: none;
+        transform: translateX(0px);
+        margin-left: 5%;
+    }
+
+    .contact ul li:nth-child(odd)::before {
+        transform: translate(0);
+        left: -7.7%;
+        height: 15px;
+        width: 15px;
+    }
+    
+    .contact ul li:nth-child(even)::before {
+        transform: translate(0);
+        left: -7.7%;
+        height: 15px;
+        width: 15px;
+    }
 }

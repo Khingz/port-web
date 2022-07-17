@@ -127,10 +127,11 @@
 }
 
 
-@media only screen and (max-width: 650px) {
+@media only screen and (max-width: 768px) {
 
     .home {
         background-size: cover;
+       
     }
 
     .home-container {
@@ -143,6 +144,10 @@
 
     .avatar-container {
         flex: 1;
+    }
+
+    .avatar-box img {
+        width: 70%;
     }
 
     .content-container {
@@ -170,4 +175,10 @@
         justify-content: center;
     }
     
+}
+
+@media only screen and (max-width: 500px) {
+    .avatar-box img {
+        width: 100%;
+    }
 }

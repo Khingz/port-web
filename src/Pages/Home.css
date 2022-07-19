@@ -1,4 +1,3 @@
-@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@700&display=swap');
 
 .home {
     width: 100%;
@@ -34,7 +33,7 @@
 }
 
 .content-container h5 {
-    font-family: 'Oswald', sans-serif;
+    font-family: 'Rowdies', cursive;
     font-size: 2.5rem;
     font-weight: bolder;
     line-height: 2.5rem;

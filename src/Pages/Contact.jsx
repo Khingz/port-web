@@ -6,7 +6,7 @@ import Footer from '../component/Footer'
 const contact = () => {
   return (
     <div className='contact-container'>
-      <h3 className='mt-5'>CONTACT</h3>
+      <h2>CONTACT</h2>
       <div className="contact">
       <ul>
       <li>
@@ -22,7 +22,7 @@ const contact = () => {
       <li>
         <div className="timeline-content">
           <h4>Contact Info</h4>
-          <p>Need to get in contact with me? Either fill out the form above with your enquiry or contact us with any of the medium below. I am always available to anser the question you might have. I look forward to hesring from you. </p>
+          <p>Need to get in contact with me? Either fill out the form above with your enquiry or contact us with any of the medium below. I am always available to answer the question you might have. I look forward to hearing from you. </p>
           <div className="social-contact">
             <div>
             <p><span><FaEnvelope /></span>kingsley995mr@gmail.com</p>

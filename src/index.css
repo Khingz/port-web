@@ -1,4 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rowdies:wght@300&display=swap');
+
 
 /* universal styling */
 
@@ -28,28 +29,4 @@ a {
 
 .bg-container {
   position: relative;
-}
-
-.bg-container::before {
-  content: 'KHINGZ';
-  position: fixed;
-  top: 3%;
-  left: 3%;
-  width: 60px;
-  color: white;
-  font-size: 1rem;
-  font-weight: 900;
-  border: 1px solid whitesmoke;
-  padding: 0.3rem;
-}
-
-.bg-container::after {
-  content: '';
-  position: fixed;
-  top: 5%;
-  left: 2%;
-  width: 85px;
-  padding: 1px;
-  background-color: rgb(34, 34, 34);
-  transform: rotate(165deg);
 }

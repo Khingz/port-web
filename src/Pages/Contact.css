@@ -125,6 +125,10 @@ input, textarea {
 
     }
 
+    .contact-container h2 {
+        font-size: 1.5rem;
+    }
+
     .contact:before {
         content: "";
         position: absolute;

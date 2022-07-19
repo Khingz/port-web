@@ -3,7 +3,7 @@ import ibakachiImg from './assets/img/ibakachi-4.png'
 import portfolioImg from './assets/img/portfolio-1.png'
 import sluralsightImg from './assets/img/sluralsight-3.png'
 import weatherImg from './assets/img/weatherapp-2.png'
-import beachresortImg from './assets/img/beachreosrt-8.png'
+import beachresortImg from './assets/img/beachreosrt-8.jpg'
 import weightImg from './assets/img/weightconverter-7.png'
 
 

@@ -1,6 +1,6 @@
 import { FaFacebook, FaTwitterSquare, FaInstagram, FaLinkedin, FaGithub } from 'react-icons/fa'
 import './Home.css';
-import avatarImg from '../assets/img/avatar-4.png'
+import avatarImg from '../assets/img/avatar-3.png'
 import { Link } from 'react-router-dom'
 
 const Home = () => {

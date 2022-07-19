@@ -12,7 +12,7 @@ const about = () => {
          </div>
         <div className="about-content">
         <p>
-         Hi! I'm Kingsley , a freelancing frontend developer based in Uyo, Akwa Ibom State, Nigeria. I am a graduate from a paramedic background, but my imense love fot tech has made me divert a career path in the field. I describe myself as a passionate and problem solving develper who loves coding and the web platform.
+         Hi! I'm Kingsley , a freelancing frontend developer based in Uyo, Akwa Ibom State, Nigeria. I am a graduate from a paramedic background, but my imense love for tech has made me divert a career path in the field. I describe myself as a passionate and problem solving develper who loves coding and the web platform.
          As a developer, i love contributong to open source projects, especially the ones that are challenging and help me learn great deal of new technologies.
          At my free time, i usually get involve in video gaming and play soccer too.
          </p>

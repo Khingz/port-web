@@ -28,10 +28,10 @@ const contact = () => {
             <p><span><FaEnvelope /></span>kingsley995mr@gmail.com</p>
             </div>
            <div>
-           <p><span><FaPhoneAlt /></span>(+234) - 08163792207</p>
+           <p><span><FaPhoneAlt /></span>(+234)-08163792207</p>
            </div>
            <div>
-           <p><span><FaWhatsapp /></span> (+234) - 08163792207</p>
+           <p><span><FaWhatsapp /></span>(+234)-08163792207</p>
            </div>
           </div>
         </div>

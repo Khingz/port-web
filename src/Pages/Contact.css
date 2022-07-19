@@ -1,13 +1,12 @@
 .contact-container {
     color: black;
-    background: yellow;
+    background: rgb(46, 46, 45);
     width: 100%;
     min-height: 100vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding-top: 5rem;
 }
 
 .contact:before {
@@ -38,6 +37,10 @@ color: white;
 margin-bottom: 20px;
 width: 50%;
 padding: 20px;
+}
+
+.contact ul li:nth-child(2) {
+    margin-bottom: 3rem;
 }
 
 .contact ul li:nth-child(odd) {
@@ -77,17 +80,32 @@ input, textarea {
     background: transparent;
     margin-bottom: .5rem;
     border: none;
-    border-bottom: black 1px solid;
+    border-bottom: whitesmoke 1px solid;
     padding: 0.5rem;
     width: 90%;
+    outline: none;
+    color: whitesmoke;
 }
 
 .timeline-content p {
     font-weight: 200;
+    font-size: .9rem;
+    text-align: justify;
 }
 
 .timeline-content div p{
     font-size: 0.9rem;
+}
+
+.timeline-content .social-contact div {
+    display: flex;
+    align-items: center;
+    margin: -1rem auto;  
+    align-content: center;
+}
+
+.timeline-content .social-contact div span{
+    margin-right: 0.5rem;
 }
 
 

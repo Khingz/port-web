@@ -29,9 +29,10 @@ a {
 .bg-container {
   position: relative;
 }
+
 .bg-container::before {
   content: 'KHINGZ';
-  position: absolute;
+  position: fixed;
   top: 3%;
   left: 3%;
   width: 60px;
@@ -44,7 +45,7 @@ a {
 
 .bg-container::after {
   content: '';
-  position: absolute;
+  position: fixed;
   top: 5%;
   left: 2%;
   width: 85px;

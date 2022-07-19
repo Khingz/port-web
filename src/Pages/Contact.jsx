@@ -1,10 +1,12 @@
 import React from 'react'
 import './Contact.css'
+import { FaWhatsapp, FaPhoneAlt, FaEnvelope } from 'react-icons/fa'
+import Footer from '../component/Footer'
 
 const contact = () => {
   return (
     <div className='contact-container'>
-      <h3>CONTACT</h3>
+      <h3 className='mt-5'>CONTACT</h3>
       <div className="contact">
       <ul>
       <li>
@@ -22,14 +24,21 @@ const contact = () => {
           <h4>Contact Info</h4>
           <p>Need to get in contact with me? Either fill out the form above with your enquiry or contact us with any of the medium below. I am always available to anser the question you might have. I look forward to hesring from you. </p>
           <div className="social-contact">
-            <p>kingsley995mr@gmail.com</p>
-            <p>(+234) - 08163792207</p>
-
+            <div>
+            <p><span><FaEnvelope /></span>kingsley995mr@gmail.com</p>
+            </div>
+           <div>
+           <p><span><FaPhoneAlt /></span>(+234) - 08163792207</p>
+           </div>
+           <div>
+           <p><span><FaWhatsapp /></span> (+234) - 08163792207</p>
+           </div>
           </div>
         </div>
       </li>
     </ul>
       </div>
+      <Footer />
     </div>
   )
 }

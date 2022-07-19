@@ -40,12 +40,10 @@
     line-height: 2.5rem;
 }
 
-
-
 .content-container p {
-    margin-top: -4rem;
     font-size: 1.2rem;
     font-weight: 500;
+    margin-top: -3rem;
 }
 
 .link-button {
@@ -151,21 +149,19 @@
     }
 
     .content-container {
-        margin-top: -2rem;
         text-align: center;
     }
 
     .content-container h5 {
         font-size: 1.5rem;
         line-height: 1.5rem;
+        margin-top: 0.5rem;
 
     }
 
     .content-container p {
         margin-top: -2rem;
-
     }
-
 
     .link-button {
         justify-content: center;

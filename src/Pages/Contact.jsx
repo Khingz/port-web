@@ -2,10 +2,11 @@ import React from 'react'
 import './Contact.css'
 import { FaWhatsapp, FaPhoneAlt, FaEnvelope } from 'react-icons/fa'
 import Footer from '../component/Footer'
+import { motion } from 'framer-motion'
 
 const contact = () => {
   return (
-    <div className='contact-container'>
+    <motion.div className='contact-container'  initial={{scaleX: 0}} animate={{scaleX: 1}} exit={{scaleX: 0}} transition={{duration: 0.8}}>
       <h2>CONTACT</h2>
       <div className="contact">
       <ul>
@@ -20,7 +21,7 @@ const contact = () => {
         </div>
       </li>
       <li>
-        <div className="timeline-content">
+        <div className="timeline-content" >
           <h4>Contact Info</h4>
           <p>Need to get in contact with me? Either fill out the form above with your enquiry or contact us with any of the medium below. I am always available to answer the question you might have. I look forward to hearing from you. </p>
           <div className="social-contact">
@@ -39,7 +40,7 @@ const contact = () => {
     </ul>
       </div>
       <Footer />
-    </div>
+    </motion.div>
   )
 }
 

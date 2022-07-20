@@ -2,10 +2,11 @@ import { FaFacebook, FaTwitterSquare, FaInstagram, FaLinkedin, FaGithub } from '
 import './Home.css';
 import avatarImg from '../assets/img/avatar-3.png'
 import { Link } from 'react-router-dom'
+import { motion } from 'framer-motion'
 
 const Home = () => {
   return (
-    <div className="home">
+    <motion.div className="home" initial={{scaleY: 0}} animate={{scaleY: 1}} exit={{scaleY: 0}}  transition={{duration: 0.8}}>
      <div className="home-grey-bg">
      <div className='home-container'>
        <div className="content-container">
@@ -40,7 +41,7 @@ const Home = () => {
        </div>
     </div>
      </div>
-    </div>
+    </motion.div>
   )
 }
 

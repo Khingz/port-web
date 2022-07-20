@@ -1,10 +1,11 @@
 import './About.css'
 import aboutImg from '../assets/img/about.svg'
 import Footer from '../component/Footer'
+import { motion } from 'framer-motion'
 
 const about = () => {
   return (
-    <div className="about-container">
+    <motion.div className="about-container" initial={{scaleX: 0}} animate={{scaleX: 1}} exit={{scaleX: 0}} transition={{duration: 0.8}}>
       <h2>ABOUT ME</h2>
        <div className="about">
          <div className="about-img">
@@ -31,7 +32,7 @@ const about = () => {
         </div>
        <Footer />
        </div>
-    </div>
+    </motion.div>
   )
 }
 

@@ -123,14 +123,9 @@
     }
 }
 
-@media only screen and (min-height: 2022px) {
+@media only screen and (min-height: 1367px) {
     .project-container {
-        /* background-color: black; */
-        max-width: 80vw;
-        display: grid;
-        grid-template-columns: 1fr 1fr 1fr;
-        gap: 2rem;
-        padding-bottom: 1rem;
+        padding-bottom: 4rem;
     
     }
 }

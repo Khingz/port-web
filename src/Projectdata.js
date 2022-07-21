@@ -33,7 +33,7 @@ const Project =  [
       imgName: 'portfolioImg',
       gitRepo: 'https://github.com/Khingz/My-Portfolio',
       liveURL: 'https://kingsley-akpan.vercel.app/',
-      tools: ['HTML', 'CSS', 'Javascript']
+      tools: ['HTML', 'CSS', 'Javascript', 'Netlify-form']
     },
     {
         name: 'Beach Resort',

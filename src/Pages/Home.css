@@ -91,21 +91,22 @@
 }
 
 .view-resume {
-    border: solid 1px rgb(89, 174, 248);
+    border: solid 1px #db9200;
     transition: ease-in-out 0.5s;
+    border-radius: 3px;
 }
 
 .view-resume:hover {
-    background: rgb(89, 174, 248);
-    transform: skew(10deg);
+    background: #db9200;
 }
 
 .hire-me {
-    background: rgb(89, 174, 248);
+    background: #db9200;
     border: none;
     transition: 0.5s ease-in-out;
     animation: hire-me 1s infinite;
     animation-delay: 1s;
+    border-radius: 3px;
 }
 
 @keyframes hire-me {
@@ -117,7 +118,7 @@
 }
 
 .hire-me:hover {
-    border: solid 1px rgb(89, 174, 248);
+    border: solid 1px #db9200;
     background: none;
     animation-name: no-animation;
     transform: scale(1.2)
@@ -158,6 +159,7 @@
     display: flex;
     justify-content: center;
     align-items: center; 
+    position: relative;
 }
 
 

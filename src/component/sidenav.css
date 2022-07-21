@@ -45,7 +45,7 @@
 
 .menu-icon {
     color: whitesmoke;
-    background-color: rgb(89, 174, 248);
+    background-color: #db9200;
     padding: 0.4rem 0.5rem;
     border-radius: 20%;
     font-size: 1rem;
@@ -58,7 +58,7 @@
 
 .menu-name {
     font-size: 1rem;
-    background-color: rgb(89, 174, 248);
+    background-color: #db9200;
     padding: 0.3rem 0.5rem;
     margin-left: 0.6rem;
     border-top-right-radius: 8px;

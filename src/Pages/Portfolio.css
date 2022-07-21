@@ -10,7 +10,7 @@
     align-items: center;
     overflow-y: hidden;
     box-sizing: border-box;
-    background-color: rgba(0, 0, 0, 0.7);
+    background-color: rgba(0, 0, 0, 0.9);
 }
 
 .portfolio-container > h2 {
@@ -18,7 +18,7 @@
     padding-bottom: 2rem;
     font-size: 2.5rem;
     font-family: 'Rowdies', cursive;
-    color: white;
+    color: #db9200;
 }
 
 .portfolio {

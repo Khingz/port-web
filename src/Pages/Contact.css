@@ -5,13 +5,14 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-color: rgba(0, 0, 0, 0.7);
+    background-color: rgba(0, 0, 0, 0.9);
     color: rgb(250, 250, 250);
 }
 
 .contact-container h2 {
     font-family: 'Rowdies', cursive;
     font-size: 2.5rem;
+    color: #db9200;
 }
 
 .contact:before {

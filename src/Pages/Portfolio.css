@@ -1,8 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Sacramento&display=swap');
 
 .portfolio-container {
-    color: black;
-    background: blanchedalmond;
+    color: rgb(217, 217, 217);
     width: 100%;
     min-height: 100vh;
     display: flex;
@@ -11,6 +10,7 @@
     align-items: center;
     overflow-y: hidden;
     box-sizing: border-box;
+    background-color: rgba(0, 0, 0, 0.7);
 }
 
 .portfolio-container > h2 {
@@ -21,9 +21,22 @@
     color: white;
 }
 
+.portfolio {
+    opacity: 0;
+    animation-name: portfolio;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
+    animation-delay: 1s;
+}
+
+
+@keyframes portfolio {
+    0%{opacity: 0;}
+    100%{opacity: 1;}
+}
+
 
 .project-container {
-    /* background-color: black; */
     max-width: 80vw;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
@@ -37,7 +50,7 @@
     text-align: left;
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
     transition: 0.7s;
-    background-color: rgb(248, 248, 248);
+    background-color: rgb(33, 33, 33);
     cursor: pointer;
     border-radius: 2%;
     padding: 1rem;
@@ -60,6 +73,9 @@
 
 .project-card .card-body .desc {
     margin-bottom: .9rem;
+    font-size: 0.9rem;
+    font-weight: lighter;
+    line-height: 20px;
 }
 
 .card-body .tools-used {
@@ -70,8 +86,9 @@
 .card-body .tools-used p {
     font-size: .9rem;
     background-color: rgb(198, 201, 198);
-    padding: .3rem;
+    padding: .3rem .5rem;
     border-radius: 5%;
+    font-size: .8rem;
 }
 
 .card-footer {

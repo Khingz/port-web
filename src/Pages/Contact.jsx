@@ -6,7 +6,7 @@ import { motion } from 'framer-motion'
 
 const contact = () => {
   return (
-    <motion.div className='contact-container'  initial={{scaleX: 0}} animate={{scaleX: 1}} exit={{scaleX: 0}} transition={{duration: 0.8}}>
+    <motion.div className='contact-container'  initial={{scaleY: 0}} animate={{scaleY: 1}} exit={{scaleY: 0}} transition={{duration: 0.8}}>
       <h2>CONTACT</h2>
       <div className="contact">
       <ul>

@@ -8,8 +8,8 @@ import { motion } from 'framer-motion'
 const Portfolio = () => {
   return (
     <motion.div className='portfolio-container' initial={{scaleX: 0}} animate={{scaleX: 1}} exit={{scaleX: 0}}  transition={{duration: 0.8}}>
-      <h2>PROJECT</h2>
-      <div className="portfolio container">
+      <h2>PROJECTS</h2>
+      <div className="portfolio">
         <div className="project-container">
           {projectsData.map((project, index) => {
             return (

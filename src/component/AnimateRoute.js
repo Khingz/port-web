@@ -10,7 +10,7 @@ const AnimateRoute = () => {
     // use location for animation purpose(motion.framer)
     const location = useLocation()
   return (
-    <Routes>
+    <Routes location={location} key={location.pathname}>
         <Route path='/' element={<Home />} />
         <Route path='/about' element={<About />} />
         <Route path='/contact' element={<Contact />} />

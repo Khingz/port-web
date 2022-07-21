@@ -22,6 +22,7 @@ a {
 
 /* App styling */
 .landing-container {
+  background: url('./assets/img/background.jpg');
   background-position: center;
   background-size: cover;
   position: relative;
@@ -29,4 +30,5 @@ a {
 
 .bg-container {
   position: relative;
+  background-color: rgba(0, 0, 0, 0.5);
 }

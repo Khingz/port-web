@@ -65,7 +65,7 @@
 }
 
 .tech-familiar ul li:nth-child(odd) {
-    background-color: black;
+    background-color: #302f46;
     color: white;
 }
 

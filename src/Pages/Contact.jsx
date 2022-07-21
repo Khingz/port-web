@@ -7,7 +7,7 @@ import { motion } from 'framer-motion'
 const contact = () => {
   return (
     <motion.div className='contact-container'  initial={{scaleY: 0}} animate={{scaleY: 1}} exit={{scaleY: 0}} transition={{duration: 0.8}}>
-      <h2>CONTACT</h2>
+      <h2>MY CONTACT</h2>
       <div className="contact">
       <ul>
       <li>
@@ -17,6 +17,7 @@ const contact = () => {
             <input type="text" className='fullname' placeholder='Enter full name' />
             <input type="email" name="email" className='email' placeholder='Enter your email' />
             <textarea name="msg" className='message' cols="30" rows="5" placeholder='Please leave a message'></textarea>
+            <input type="submit" value="Submit" className='submit-btn' />
           </form>
         </div>
       </li>

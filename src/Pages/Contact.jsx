@@ -13,7 +13,7 @@ const contact = () => {
       <li>
         <div className="timeline-content">
           <h4>Get in touch</h4>
-          <form>
+          <form name="contact" action="Pages/success/" method="POST" data-netlify="true" >
             <input type="text" className='fullname' placeholder='Enter full name' />
             <input type="email" name="email" className='email' placeholder='Enter your email' />
             <textarea name="msg" className='message' cols="30" rows="5" placeholder='Please leave a message'></textarea>

@@ -4,6 +4,7 @@ import About from '../Pages/About'
 import Contact from '../Pages/Contact'
 import Portfolio from '../Pages/Portfolio'
 import { Routes, Route, useLocation } from "react-router-dom"
+import Success from '../Pages/success'
 
 
 const AnimateRoute = () => {
@@ -15,6 +16,7 @@ const AnimateRoute = () => {
         <Route path='/about' element={<About />} />
         <Route path='/contact' element={<Contact />} />
         <Route path='/portfolio' element={<Portfolio />} />
+        <Route path='/page/success' element={<Success />} /> (//for netlify, added for motion framer)
     </Routes>
   )
 }

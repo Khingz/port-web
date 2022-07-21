@@ -85,7 +85,7 @@
 
 .card-body .tools-used p {
     font-size: .9rem;
-    background-color: rgb(198, 201, 198);
+    background-color: rgb(16, 17, 16);
     padding: .3rem .5rem;
     border-radius: 5%;
     font-size: .8rem;
@@ -99,14 +99,20 @@
     /* margin: 1rem auto;     */
 }
 
-.live-url a {
-    color: black;
+.card-url a {
+    color: rgb(217, 217, 217);
     border: none;
     padding: 0.5rem;
     width: 25px;
     height: 25px;
-    border-radius: 50%;
+    transition: 0.5s ease;
+    font-size: 0.7rem;
+}
 
+.card-url a:hover {
+    border: solid #db9200 1px;
+    border-radius: 5px;
+    padding: 0.5rem;
 }
 
 .project-card:last-child {

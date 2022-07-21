@@ -1,4 +1,4 @@
-import { FaHome, FaRegPlayCircle, FaBook, FaUserAlt, FaEnvelope, FaTimes, FaAlignLeft } from 'react-icons/fa'
+import { FaHome, FaBook, FaUserAlt, FaEnvelope, FaTimes, FaAlignLeft } from 'react-icons/fa'
 import '../component/sidenav.css'
 import { NavLink } from 'react-router-dom'
 import { useState } from 'react';

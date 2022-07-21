@@ -1,5 +1,4 @@
 import React from 'react'
-import { FaShareSquare } from "react-icons/fa";
 
 const Project = ({project}) => {
   return (
@@ -17,9 +16,9 @@ const Project = ({project}) => {
             </div>
         </div>
         <div className="card-footer">
-            <a href={project.gitRepo} target='_blank'>Source Code</a>
-            <div className="live-url">
-            <a href={project.liveURL} target='_blank'>Live URL</a>
+        <div className="card-url">
+            <a href={project.gitRepo} target='_blank' rel="noreferrer">Source Code</a>
+            <a href={project.liveURL} target='_blank' rel="noreferrer">Live URL</a>
         </div>
         </div>
     </div>

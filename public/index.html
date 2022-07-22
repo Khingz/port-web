@@ -17,9 +17,10 @@
   </head>
   <body>
     <form name="contact" netlify netlify-honeypot="bot-field" hidden>
-      <input type="text" name="name" />
-      <input type="email" name="email" />
-      <textarea name="message"></textarea>
+          <input type="text" name='name' className='fullname' placeholder='Enter full name' required/>
+          <input type="email" name="email" className='email' placeholder='Enter your email' required />
+          <textarea name="msg" className='message' cols="30" rows="5" placeholder='Please leave a message' required></textarea>
+          <input type="submit" value="Submit" className='submit-btn' />
     </form>
     <noscript>You need to enable JavaScript to run this app.</noscript>
     <div id="root"></div>

@@ -13,7 +13,7 @@ const contact = () => {
       <li>
         <div className="timeline-content">
           <h4>Get in touch</h4>
-          <form action='/success' name="contact" method="POST" data-netlify="true" onSubmit='submit'>
+          <form action='/success/' name="contact" method="POST" data-netlify="true" onSubmit='submit'>
             <input type="hidden" name="form-name" value='contact' />
             <input type="text" name='name' className='fullname' placeholder='Enter full name' required/>
             <input type="email" name="email" className='email' placeholder='Enter your email' required />

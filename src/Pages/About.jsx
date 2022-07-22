@@ -13,9 +13,10 @@ const about = () => {
          </div>
         <div className="about-content">
         <p>
-         Hi there! I'm Kingsley , a freelancing frontend developer based in Uyo, Akwa Ibom State, Nigeria. I am a graduate from a paramedic background, but my imense love for tech has made me divert a career path in the field. I describe myself as a passionate and problem solving develper who loves coding and the web platform.
-         As a developer, i love contributong to open source projects, especially the ones that are challenging and help me learn great deal of new technologies.
-         At my free time, i usually get involve in video gaming and play soccer too.
+          Code lover and a fan of the internet!! <span style={{color:'#db9200'}}>Hey there!</span> My name is Kingsley from Nigeria. I'm a freelancing web developer that has worked on sites for small and medium-sized enterprises. I can assist you with finding jobs, listing your services, or even setting up a whole internet business.
+          HTML and CSS 3, Vanilla javascript, React, Node and Express are all skills I have. As a developer, i love contributong to open source projects, especially the ones that are challenging and help me learn great deal of new technologies.
+          I'll oversee the entire job from conception to end.
+          I value regular communication very much, so let's stay in touch!
          </p>
          <div className="tech-familiar">
            <ul>

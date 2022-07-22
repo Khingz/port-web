@@ -13,11 +13,11 @@ const contact = () => {
       <li>
         <div className="timeline-content">
           <h4>Get in touch</h4>
-          <form action='/Pages/success' name="contact" method="POST" data-netlify="true" onSubmit='submit'>
+          <form action='/success' name="contact" method="POST" data-netlify="true" onSubmit='submit'>
             <input type="hidden" name="form-name" value='contact' />
-            <input type="text" className='fullname' placeholder='Enter full name' />
-            <input type="email" name="email" className='email' placeholder='Enter your email' />
-            <textarea name="msg" className='message' cols="30" rows="5" placeholder='Please leave a message'></textarea>
+            <input type="text" name='name' className='fullname' placeholder='Enter full name' required/>
+            <input type="email" name="email" className='email' placeholder='Enter your email' required />
+            <textarea name="msg" className='message' cols="30" rows="5" placeholder='Please leave a message' required></textarea>
             <input type="submit" value="Submit" className='submit-btn' />
           </form>
         </div>

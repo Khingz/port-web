@@ -13,7 +13,7 @@ const Home = () => {
         <h5>NON-<span style={{color:'#db9200'}}>AWARD WINNING</span> WEB DEVELOPER</h5>
         <p>But trust me, I will blow your mind!!!</p>
         <div className='link-button'>
-          <a href="https://docs.google.com/document/d/1qQwyvHi5F0DPiq9pwpNPjTerkdjLcvqX/edit?usp=sharing&ouid=105689398385832492198&rtpof=true&sd=true" target='_blank' className='view-resume' rel="noreferrer">View Resume</a>
+          <a href="https://drive.google.com/file/d/1GX5c5CBf5U78mlnRiCWIGN6mCORMs5lD/view?usp=share_link" target='_blank' className='view-resume' rel="noreferrer">View Resume</a>
           <Link to='/contact' className='hire-me'>Hire Me</Link >
         </div>
         <div className='home-social-icon'>
